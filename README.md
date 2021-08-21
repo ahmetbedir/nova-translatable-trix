@@ -3,11 +3,16 @@
 </br>
 </br>
 
+# Install
+```sh
+composer require ahmetbedir/nova-translatable-trix
+```
+
 # Usage
 ```php
-    TranslatableTrix::make('Content')
-        ->withFiles('public', 'uploads')
-        ->translatable(),
+TranslatableTrix::make('Content')
+    ->withFiles('public', 'uploads')
+    ->translatable()
 ```
 </br>
 
