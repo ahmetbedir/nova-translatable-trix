@@ -13,4 +13,4 @@
 
 </br>
 
-#### Note: It is compatible with the `optimistdigital/nova-translatable` package.
+##### Note: It is compatible with the **optimistdigital/nova-translatable** package.
