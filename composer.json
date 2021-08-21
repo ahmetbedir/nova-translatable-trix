@@ -1,0 +1,33 @@
+{
+  "name": "ahmetbedir/nova-translatable-trix",
+  "description": "A Laravel Nova field.",
+  "keywords": [
+    "laravel",
+    "nova",
+    "translatable",
+    "trix"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "laravel/nova": "^3.0",
+    "optimistdigital/nova-translatable": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ahmetbedir\\NovaTranslatableTrix\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ahmetbedir\\NovaTranslatableTrix\\FieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
